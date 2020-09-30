@@ -1,2 +1,2 @@
 # Beautified
-beautified-by-fida.surge.sh
+[beautified-by-fida.surge.sh]
