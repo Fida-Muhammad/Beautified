@@ -1,0 +1,554 @@
+*, html, body{
+    margin: 0;
+    padding:0
+}
+header{
+    
+    height: 112px;
+    padding-top: 30px;
+    position: fixed;
+    z-index: 1;
+    width: 100%;
+}
+.secondary{
+    background-color: deepskyblue;
+    box-shadow: 0px 0px 70px 0;
+    transition: all 0.5s ease-in;
+}
+.navbar-brand{
+    color: #ffffff !important;
+    text-transform: uppercase;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: sans-serif;
+    transition: all 0.5s ease-in;
+}
+.navbar-brand:hover{
+    color: red !important;
+    transform: translate(5px);
+}
+header ul{
+    float: right;
+    text-align: right;
+}
+ul li{
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a{
+    color: #ffffff !important;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 16px;
+    transition: all 0.5s ease-in;
+}
+ul li a:hover{
+    color: red !important;
+    transform: translate(5px);
+}
+.navbar-toggler{
+    text-decoration:  none !important;
+    outline:  none !important;
+    border: none !important;
+}
+.navbar-toggler-icon{
+    font-size: 30px;
+}
+
+
+
+.banner{
+    background-image:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("/images/people-5594462_1920.jpg");
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 180px;
+    color: #ffffff;
+    margin-bottom: 30px;
+
+}
+.banner h2{
+  text-transform: uppercase;
+  font-size: 32px;
+  font-weight: bold;
+  font-family: sans-serif;
+  margin-top: 90px;
+}
+.banner span{
+    color: deepskyblue;
+}
+.bannerp p{
+    font-size: 16px;
+}
+.banner .icons{
+    color: deepskyblue;
+    font-size: 36px;
+}
+.banner .icons i{
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.banner a{
+   color: #ffffff;
+   text-decoration: none !important;
+   border: 2px solid deepskyblue;
+   text-align: center;
+   padding:10px;
+   width: 130px;
+   font-size: 16px;
+   font-weight: bold;   
+   margin-top: 30px;
+}
+.banner .btn-one{
+    background-color: deepskyblue;
+}
+.banner .btn-one:hover{
+    background-color: dodgerblue;
+}
+.banner .btn-two:hover{
+  background-color: deepskyblue;
+}
+
+
+.intro-sec{
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.intro-sec h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 36px;
+}
+.intro-sec span{
+    color: deepskyblue;
+}
+.sub-heading{
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+.sub-heading p{
+    color: #000;
+}
+.sub-heading::after{
+    content: '';
+    position: absolute;
+    width: 6%;
+    height: 2px;
+    margin-left: -3%;
+    background-color: deepskyblue;
+    z-index: 1;
+    transition:all 0.5s ease;
+}
+.sub-heading:hover::after{
+    width: 24%;
+    margin-left: -12%;
+}
+.card-dec{
+    background-color: ghostwhite;
+    padding: 30px 50px;
+    margin-top: 80px;
+    position: relative;
+}
+.card-dec:hover{
+    background-color: deepskyblue;
+    color: #ffffff;
+    transition: all 0.5s ease;
+}
+.card-dec:hover .icons{
+    background-color: #fff;
+    color: deepskyblue;
+    border: 4px solid deepskyblue;
+    transition: all 0.5s ease;
+}
+.card-dec .icons{
+    background-color: deepskyblue;
+    display: inline-block;
+    padding: 10px;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 50%;
+    border: 4px solid dodgerblue;
+    position: absolute;
+    width: 50px;
+    left: 46%;
+    top: -10%;
+}
+.card-dec .icons i{
+    font-size: 22px;
+}
+.content h5{
+    text-transform: uppercase;
+    margin: 30px 0;
+}
+.content p{
+    margin-bottom: 40px;
+}
+
+
+
+
+
+
+.feature-sec{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("/images/evening-55067_640.png");
+    background-repeat:  no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 140vh;
+    padding: 100px 0;
+    color: #fff;
+}
+.feature-sec h2{
+    text-transform: uppercase;
+}
+.second-row{
+    margin-top: 100px;
+}
+.single-feature{
+    position: relative;
+    width: 320px;
+    float: left;
+    padding: 30px 0;
+    text-align: center;
+    border-right: 1px solid #007add;
+    border-bottom: 1px solid #007add;
+}
+.single-feature:nth-of-type(even){
+    border-right: none;
+}
+.single-feature:nth-last-child(2){
+    border-bottom: none;
+}
+.single-feature:last-child{
+    border-bottom: none;
+}
+.single-feature .feature-icons{
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    margin-bottom: 30px;
+    line-height: 2;
+    background-color: deepskyblue;
+    border-radius: 50%;
+    text-align: center;
+    border: 4px solid #65c8e5;
+    box-sizing: border-box;
+    transition:all 0.4s ease;
+}
+.single-feature:hover .feature-icons{
+    border: 4px solid #007add;
+    background-color: #fff;
+    color: deepskyblue;
+    transition:all 0.4s ease;
+}
+.feature-content h3{
+    text-transform: uppercase;
+    font-size: 18px !important;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+.mockup img{
+    position: relative;
+    margin-top: 50px;   
+    
+}
+
+
+
+
+
+.work-feature{
+    padding: 100px 0;
+}
+.work-row{
+    margin-top: 70px;
+}
+.work-feature h2{
+    text-transform: uppercase;
+}
+.work-feature .sub-heading p{
+    color: #000;
+}
+.work-icon{
+    width: 40px;
+    height: 40px;
+    background-color: #fff;
+    color: deepskyblue;
+    border: 1px solid deepskyblue;
+    text-align: center;
+    line-height: 2.5;
+    margin-right: 5px;
+    border-radius: 50%;
+}
+.work-icon i{
+    font-size: 18px;
+    font-weight: bold;
+}
+.work-content h4{
+    text-transform: uppercase;
+    color:deepskyblue;
+    font-size: 18px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.work-content p{
+    margin-left: 10px;
+}
+.d-flex:hover .work-icon{
+    background-color: rgb(95, 252, 255);
+    transition:all 0.6s ease-in-out;
+}
+
+
+
+
+
+
+.testimonials{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("/images/work-5382501_1920.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 130vh;
+    background-attachment: fixed;
+    padding: 100px 0;
+    margin: 30px 0;
+    color: #fff;
+    text-align: center;
+}
+.testimonials h2{
+    text-transform: uppercase;
+    font-family: sans-serif;
+}
+.testimonials .sub-heading p{
+    color: #fff;
+}
+.col-img img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+}
+.col-content{
+    margin-top: 30px;
+}
+.col-content h6{
+    font-size: 22px;
+    font-weight: bold;
+    color: deepskyblue;
+}
+.col-content small{
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.col-content p{
+    margin-top: 30px;
+}
+.test-col{
+    box-shadow: 2px 4px  deepskyblue;
+    max-width: 340px;
+    margin: 70px auto;
+}
+.test-col:hover img{
+    border: 4px solid deepskyblue;
+    transition: all 0.2s ease;
+}
+
+
+
+
+
+
+.ourteam{
+    padding: 100px 0;
+}
+.ourteam h2{
+    text-transform: uppercase;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+.ourteam .sub-heading p{
+    color: #000;
+}
+.tem-col{
+     background-color: lightcyan;
+     margin: 100px auto;
+     max-width:260px ;
+}
+.tem-col:hover{
+    box-shadow: 2px 2px 20px 2px deepskyblue;
+    transition:all 0.3s ease
+}
+.team-img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 4px solid #65c8e5;
+    margin-bottom: 20px;
+    margin-top: -20%;
+}
+.team-content h6{
+    color: deepskyblue;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+.team-content small{
+    font-size: 16px;
+    font-weight: bold;
+    
+}
+.team-content p{
+    margin-top: 20px;
+}
+.team-icons i{
+  margin: 10px 10px;
+  padding: 10px;
+  background-color: deepskyblue;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  line-height: 1;
+  color: #fff;
+}
+.team-icons i:hover{
+    background-color: #fff;
+    color: deepskyblue;
+    transition: all 0.4s ease;
+}
+
+
+
+.download-sec{
+    background-image:linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)), url("/images/computer-4484282_1920.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    padding: 100px 0;
+}
+.download-sec .download-header h2{
+    text-transform: uppercase;
+    font-weight: bold;
+   font-family: sans-serif;
+   color: #fff;
+}
+.download-sec .download-header p{
+    color: #fff;
+}
+.download-buttons a{
+    margin-top: 100px;
+    color: #fff;
+    outline: none !important;
+    text-decoration: none !important;
+    border: 1px solid #fff;
+    width: 150px;
+    margin-right:10px ;
+    padding: 10px;
+}
+.download-buttons a:hover{
+    background-color: #fff;
+    color: deepskyblue;
+}
+.download-buttons a:hover i{
+    color: deepskyblue;
+}
+.download-buttons i{
+    margin-right: 10px;
+}
+
+
+
+
+.contacr-sec{
+    margin: 100px 0;
+}
+.contacr-sec h2{
+    text-transform: uppercase;
+    font-weight: bold;
+   font-family: sans-serif;
+}
+.contacr-sec .sub-heading p{
+    color: #000;
+}
+.contacr-sec h4{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    text-align: left;
+}
+.contacr-sec .contact-icon i{
+    margin-left: 5px;
+    color: deepskyblue;
+    font-size: 22px;
+    padding: 5px;
+    background-color: lightskyblue;
+    color: #000;
+    border-radius: 50%;
+    width:40px;
+    height: 40px;
+    line-height: 1.5;
+} 
+.contact-type h6{
+    
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-bottom: 0 !important;
+    display: block;
+    text-align: left;
+    margin-left: 20px;
+}
+.contact-type p{
+  font-size: 12px;
+  display:block;
+  margin-left: 20px;
+}
+.flex-One{
+    float: left;
+}
+.flex-Two{
+    float: right;
+     text-align: left;
+}
+.flex-One input{
+    padding: 0 20px;
+    width: 330px;
+    display: block;
+    margin-bottom:25px;
+    height: 44px;
+    outline: none !important;
+}
+.flex-Two input{
+    width: 330px;
+    height: 110px;
+    outline: none !important;
+    display: block;
+}
+.flex-Two button{
+    display: block;
+    width: 330px;
+    outline:  none !important;
+    background-color: lightskyblue;
+    border: 1px solid #000;
+    margin: 25px 0;
+    padding: 10px 0;
+    font-size: 16px;
+}
+.contact-row{
+    margin: 100px 0;
+}
+
+hr{
+    background-color: deepskyblue;
+}
+.footer{
+    text-align: center;
+    font-weight: 18px;
+    font-weight: bold;
+}
+.footer i{
+    color: red;
+}
