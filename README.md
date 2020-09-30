@@ -1,2 +1,2 @@
 # Beautified
-beautified-by-fida.surge.sh (Not Responsive)
+beautified-by-fida.surge.sh
